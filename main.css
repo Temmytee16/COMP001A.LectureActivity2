@@ -1,0 +1,30 @@
+/* 
+Primary stylesheet for COMP001A Lecture Activity 2 
+Author: Temitope Olikuntuyi 
+Purpose:CSS styling with error
+*/
+/* CSS for COMP001A Lecture Activity 2 */
+
+body {
+    font-family: sans-serif;
+    padding: 1em;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 180%;
+    color: #0033cc;
+}
+
+h2 {
+    font-size: 140%;
+    border-bottom: 3px solid #0033cc;
+}
+
+ul {
+    list-style-type: square;
+}
+/* Intentional CSS Error */
+.content { background-color: blue; }
+    
+
