@@ -36,7 +36,7 @@ h3 {
     font-size: 120%;
     color: burlywood;
 
-    
+
 
 }
 footer {
@@ -44,6 +44,10 @@ footer {
     color: white;
     margin: 2px 0; 
     text-align: center;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 
 
