@@ -1,30 +1,48 @@
 /* 
 Primary stylesheet for COMP001A Lecture Activity 2 
 Author: Temitope Olikuntuyi 
-Purpose:CSS styling with error
+Purpose:CSS styling with external stylesheet
 */
 /* CSS for COMP001A Lecture Activity 2 */
 
 body {
     font-family: sans-serif;
-    padding: 1em;
+    padding: 20px; 
+    color: lightslategray;
     max-width: 600px;
 }
 
+header {
+    background-color: burlywood;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 h1 {
     font-size: 180%;
-    color: #0033cc;
+    color:white;
 }
 
 h2 {
     font-size: 140%;
-    border-bottom: 3px solid #0033cc;
+    border-bottom: 3px solid burlywood;
 }
 
 ul {
     list-style-type: square;
 }
-/* Intentional CSS Error */
-.content { background-color: blue; }
-    
+h3 {
+    font-size: 120%;
+    color: burlywood;
+
+}
+footer {
+    background-color: burlywood;
+    color: white;
+    margin: 2px 0; 
+    text-align: center;
+}
+
+
 
